@@ -8,10 +8,27 @@ header {
     text-align: center;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 
-.developer {
-display: block;
+h1, h2, h3, h4, h5, h6  {
+    color: white;
+}
+
+h5 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.Martin {
+    width: 300px;
+}
+
+.background {
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQmr7hPa3rNM5ZpBtCEX_VRtWAlWoXCPQSg9w&usqp=CAU');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 }
 
 nav {
@@ -44,10 +61,31 @@ nav li a:hover {
     font-weight: bold; 
 }
 
-.form {
-    color: white;
-    background-color:black;
-    font-style: italic;
-    box-shadow: 10px;
+.gray {
+    background-color: rgb(122, 122, 122);
+}
+.contact {
+margin-bottom: 10px;
+border-radius: 5px;
+flex-direction: row;
 }
 
+textarea {
+    width: 25%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(214, 207, 207);
+    border-radius: 4px;
+    background-color: #fffefe;
+    resize: none;
+  }
+
+.Info {
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
