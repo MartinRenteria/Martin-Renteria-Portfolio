@@ -8,13 +8,16 @@ body {
 }
 
 header {
-    background: #31343d;
-    display: flex;
-    flex-direction: column;
+    background: #92ccce;
     font-size: 40px;
-    margin-bottom: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: gray;
+}
+
+h1 {
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    color: #313430
 }
 
 .Martin {
@@ -23,10 +26,9 @@ header {
 
 nav {
     font-family: Poppins, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     padding: 20px 0px 20px 0px;
-    text-align: center;
     margin: 0;
     opacity: 0.70;
     background-color: black;
@@ -34,34 +36,46 @@ nav {
 }
 
 nav li {
-    display: inline-block;
-    padding: 0 25px 1px 25px;
-    font-size: 20px
+    display: inline-flex;
+    padding: 0 25px 0px 25px;
 }
 
 nav li a {
     text-decoration: none;
-    color: white;
+    color: cyan;
     margin: 0;
     font-family: sans-serif;
+    border-bottom: 1px solid cyan;
+
 }
 
 nav li a:hover {
-    color: cyan;
+    color: white;
     font-weight: bold; 
 }
 
-.contact {
-    margin-bottom: 10px;
-    border-radius: 5px;
-    flex-direction: row;
-}
-
-.Info {
-    list-style-type: none;
-    font-size: 20px;
+footer {
     display: flex;
     justify-content: space-between;
-    color: black;
+}
+
+aside {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    padding: 30px;
+    width: 18%;
+    margin-right: 5px;
+    font-size: 50px;
+    border-right: #445877 2px solid;
+    color: #445877;
+    font-weight: 800;
+}
+
+#info-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 }
+
