@@ -4,78 +4,145 @@
 
 body {
     background-color: #eeeef7;
-    margin: 2px;
 }
 
 header {
-    background: #92ccce;
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-self: center;
+    background: #313430;
 }
 
-h1 {
+section h1 {
     display: block;
-    font-size: 1em;
-    font-weight: bold;
-    color: #313430
+    background-color: #92ccce;
+    padding-left: 200px;
+}
+h1 {
+    display: flex;
+    text-align: right;
+    font-size: 3em;
+    color: #313430;
 }
 
-.Martin {
-    border-radius: 50%;
+.links {
+    list-style: none;
 }
 
-nav {
-    font-family: Poppins, sans-serif;
+.links li  {
+    display: inline-block;
+    padding: 50px 70px;
+}
+
+.links li a {
+    flex-wrap: wrap;
     font-size: 20px;
-    font-weight: bold;
-    padding: 20px 0px 20px 0px;
-    margin: 0;
-    opacity: 0.70;
-    background-color: black;
-    white-space: nowrap;
-}
-
-nav li {
-    display: inline-flex;
-    padding: 0 25px 0px 25px;
-}
-
-nav li a {
+    color: #92ccce;
+    border-bottom: 2px solid #92ccce;
     text-decoration: none;
-    color: cyan;
-    margin: 0;
-    font-family: sans-serif;
-    border-bottom: 1px solid cyan;
-
 }
 
-nav li a:hover {
+.links a:hover {
     color: white;
     font-weight: bold; 
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
+#water {
+    background: url(https://images.pexels.com/photos/311039/pexels-photo-311039.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding: 15px;
 }
 
-aside {
+.Martin {
     display: flex;
-    justify-content: flex-start;
-    align-items: left;
-    padding: 30px;
-    width: 18%;
-    margin-right: 5px;
-    font-size: 50px;
-    border-right: #445877 2px solid;
+    float: left;
+    border-radius: 50%;
+}
+
+h2 {
+    color: #445877;
+    background-color: #92ccce;
+
+}
+
+.About {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+p {
+    display: flex;
+}
+
+.Paragraph {
+    width: 70%;
+    margin-left: 15px;
+}
+
+.Work {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#projects {
+    width:70%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px
+}
+
+.project {
+    
+    display: flex;;
+    border: 8px solid #92ccce;
+    position: relative;
+}
+
+#code {
+    background-image: url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    width: 1300px;
+    height: 300px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+}
+
+.side-headings {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+    width: 20%;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    border-right: #445877 5px solid;
     color: #445877;
     font-weight: 800;
+    margin: 0%;
 }
 
-#info-links {
+footer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
 }
 
+.contactMeBox {
+    display: flex;
+}
+
+.contactMe {
+    list-style-type: none;
+}
+
+.contactMe li {
+    display: inline-flex;
+    padding: 50px 90px;
+}
+
+.contactMe li a {
+    color: #445877;
+    border-bottom: 3px solid  #445877;
+    text-decoration: none;
+
+}
