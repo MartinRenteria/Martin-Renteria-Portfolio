@@ -63,7 +63,13 @@ h1 {
 h2 {
     color: #445877;
     background-color: #92ccce;
+}
 
+.bottomright {
+    position: absolute;
+    bottom: 140px;
+    right: 140px;
+    font-size: 80px
 }
 
 .About {
@@ -96,7 +102,7 @@ p {
 
 .project {
     
-    display: flex;;
+    display: flex;
     border: 8px solid #92ccce;
     position: relative;
 }
@@ -105,6 +111,24 @@ p {
     background-image: url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
     width: 1300px;
+    height: 300px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+}
+
+.text {
+    background-color: #92ccce;
+    height: 80px;
+    width: 160px;
+    position: absolute;
+    left: 0;
+    top: 140px;
+}
+
+#code2 {
+    background-image: url(https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    width: 600px;
     height: 300px;
     padding-left: 30px;
     background-repeat: no-repeat;
