@@ -8,36 +8,36 @@ body {
 
 header {
     display: flex;
-    align-self: center;
+    justify-content: space-between;
+    align-items: center;
     background: #313430;
 }
 
-section h1 {
-    display: block;
+header h1 {
+    width: auto;
     background-color: #92ccce;
-    padding-left: 200px;
-}
-h1 {
-    display: flex;
-    text-align: right;
+    padding-left: 100px;
     font-size: 3em;
     color: #313430;
 }
 
+header nav {
+
+    font-size: 16px;
+    flex: 1 1 0;
+}
+
 .links {
+    display: inline-block;
     list-style: none;
 }
 
-.links li  {
-    display: inline-block;
-    padding: 50px 70px;
-}
-
-.links li a {
+.links a {
     flex-wrap: wrap;
     font-size: 20px;
     color: #92ccce;
     border-bottom: 2px solid #92ccce;
+    padding: 6px;
     text-decoration: none;
 }
 
@@ -46,11 +46,15 @@ h1 {
     font-weight: bold; 
 }
 
-#water {
+.water {
+    display: flex;
+    position: relative;
     background: url(https://images.pexels.com/photos/311039/pexels-photo-311039.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
     background-size: cover;
-    height: 300px;
+    background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
     padding: 15px;
 }
 
@@ -60,16 +64,15 @@ h1 {
     border-radius: 50%;
 }
 
-h2 {
+.water h2 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    font-size: 50px;
     color: #445877;
     background-color: #92ccce;
-}
-
-.bottomright {
-    position: absolute;
-    bottom: 140px;
-    right: 140px;
-    font-size: 80px
+    padding: 0;
+    margin: 0;
 }
 
 .About {
@@ -169,4 +172,29 @@ footer {
     border-bottom: 3px solid  #445877;
     text-decoration: none;
 
+}
+
+@media only screen and (max-width: 900px) {
+    
+    header {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        align-items: center;
+    }
+    
+    main {
+        margin-bottom: 1em;
+        border-bottom: 5px solid #92ccce;
+        padding-bottom: 5px;
+        margin-right: 0;
+        text-align: center;
+        width: auto;
+    }
+
+    div {
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+    }
 }
