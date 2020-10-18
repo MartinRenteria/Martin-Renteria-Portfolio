@@ -101,28 +101,26 @@ p {
 }
 
 #projects {
-    width:70%;
-    margin-left: 20px;
-    margin-right: 20px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    padding: 10px
+    width: 70%;
+    margin-left: 20px;
 }
 
 .project {
-    
-    display: flex;
+
     border: 8px solid #92ccce;
     position: relative;
+    margin: 6px;
 }
 
 #code {
     background-image: url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
+    background-position: center;
     width: 1300px;
     height: 300px;
-    padding-left: 30px;
-    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .text {
@@ -130,17 +128,16 @@ p {
     height: 80px;
     width: 160px;
     position: absolute;
-    left: 0;
     top: 140px;
 }
 
 #code2 {
     background-image: url(https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
+    background-position: center;
     width: 600px;
     height: 300px;
-    padding-left: 30px;
-    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .side-headings {
@@ -195,7 +192,8 @@ footer {
         padding-bottom: 5px;
         padding-bottom: 5px;
         text-align: center;
-        width: auto;
+        width: 32%;
+        padding:5px;
     }
 
     #section-contactme {
@@ -209,5 +207,15 @@ footer {
         padding: 15px;
         width: auto;
         text-align: center;
+    }
+
+    div #code .project {
+        width: auto;
+        align-items: center;
+    }
+
+    div#code2.project {
+        width: ;
+        align-items: center;
     }
 }
