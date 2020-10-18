@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -19,12 +21,11 @@ header h1 {
     padding-left: 100px;
     font-size: 3em;
     color: #313430;
+
 }
 
-header nav {
-
-    font-size: 16px;
-    flex: 1 1 0;
+ul.links {
+    padding-right: 5em;
 }
 
 .links {
@@ -34,7 +35,7 @@ header nav {
 
 .links a {
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 25px;
     color: #92ccce;
     border-bottom: 2px solid #92ccce;
     padding: 6px;
@@ -64,6 +65,11 @@ header nav {
     border-radius: 50%;
 }
 
+header.water {
+
+    margin-bottom: 20px;
+}
+
 .water h2 {
     position: absolute;
     bottom: 0px;
@@ -72,7 +78,7 @@ header nav {
     color: #445877;
     background-color: #92ccce;
     padding: 0;
-    margin: 0;
+    margin-bottom: 0;
 }
 
 .About {
@@ -154,16 +160,12 @@ footer {
     display: flex;
 }
 
-.contactMeBox {
-    display: flex;
-}
-
 .contactMe {
     list-style-type: none;
 }
 
 .contactMe li {
-    display: inline-flex;
+    display: inline-block;
     padding: 50px 90px;
 }
 
@@ -174,7 +176,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     
     header {
         flex-direction: column;
@@ -183,18 +185,29 @@ footer {
         align-items: center;
     }
     
-    main {
+    header h1 {
+        padding: 0;
+    }
+
+    .side-headings {
         margin-bottom: 1em;
-        border-bottom: 5px solid #92ccce;
-        padding-bottom: 5px;
         margin-right: 0;
+        padding-bottom: 5px;
+        padding-bottom: 5px;
         text-align: center;
         width: auto;
     }
 
-    div {
+    #section-contactme {
         width: auto;
-        flex-direction: column;
-        align-items: center;
+        text-align: center;
+
+    }
+
+    ul.links {
+        margin: 0;
+        padding: 15px;
+        width: auto;
+        text-align: center;
     }
 }
