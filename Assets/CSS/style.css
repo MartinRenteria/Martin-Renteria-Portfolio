@@ -103,7 +103,6 @@ p {
 #projects {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
     margin-left: 20px;
 }
 
@@ -115,10 +114,9 @@ p {
 }
 
 #code {
-    background-image: url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
     background-position: center;
-    width: 1300px;
+    width: 1000px;
     height: 300px;
     overflow: hidden;
 }
@@ -126,13 +124,12 @@ p {
 .text {
     background-color: #92ccce;
     height: 80px;
-    width: 160px;
+    width: auto;
     position: absolute;
     top: 140px;
 }
 
 #code2 {
-    background-image: url(https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
     background-position: center;
     width: 500px;
