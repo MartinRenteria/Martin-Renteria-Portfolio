@@ -25,10 +25,10 @@
 
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#section-aboutme">About Me</a>
+                  <a class="nav-link" href="#aboutMe">About Me</a>
               </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#section-work">Projects</a>
+                      <a class="nav-link" href="#portfolio">Portfolio</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="#Contact">Contact Information</a>
@@ -47,7 +47,9 @@
         </div>
       </div>
 
-    <main>
+      <br>
+
+    <main class="container">
       <div id="aboutMe" class="bg-dark p-3" style="border-radius: 10px;">
         <h3 class="text-light">About Me:</h3>
         <hr>
@@ -69,76 +71,82 @@
           the knowledge I have gained through Technology and Psychology.</p>
         </div>
 
-      <section id="section-work" class="Work">
-        <section class="side-headings">Projects</section>
+        <br><br>
 
-        <div id="projects">
-          <div class="project" id="code">
-            <h3 class="text">Stock ticker<br />HTML/CSS/Javascript/JQuery</h3>
-            <a href="https://zhanez.github.io/Project-1/" target="_blank">
-              <img class="projectPhoto" src="Assets\Files\zhanez.github.io_Project-1_.png" />
-            </a>
-          </div>
-
-          <div class="project" id="code2">
-            <h3 class="text">
-              Developer Coding Quiz<br />HTML/CSS/Javascript/JQuery/API
-            </h3>
-            <a
+        <div id="portfolio" class="container row bg-dark px-1 py-3 mx-0" style="border-radius: 10px;">
+          <h3 class="text-light col-12">My Portfolio:</h3>
+            <section class="col-sm-4 my-1">
+              <article class="card bg-dark text-light p-2">
+                <img src="Assets\Files\zhanez.github.io_Project-1_.png" class="card-img-top" style="border:5px solid white;border-radius:5px;" alt="">
+                <div class="card-body">
+                  <a
+                  href="https://zhanez.github.io/Project-1/"
+                  target="_blank"
+                >
+                <h4 class="card-title p-1 text-center" style="background-color: #333;border-radius: 5px;border:1px solid #999;">Stock Inquiry</h4>
+                </a>
+                <p class="card-text">The application required the use of third party API's and displaying their data onto the webpage within a meaningful way. Full-stack development was necessary to complete this project.</p>
+              </div></article>
+            </section>
+    
+            <section class="col-sm-4 my-1">
+              <article class="card bg-dark text-light p-2">
+                <img src="Assets\Files\martinrenteria.github.io_Developer-Coding-Quiz_.png" class="card-img-top" style="border:5px solid white;border-radius:5px;" alt="">
+                <div class="card-body">
+                  <a
               href="https://martinrenteria.github.io/Developer-Coding-Quiz/"
               target="_blank"
             >
-              <img class="projectPhotos"
-                src="Assets\Files\martinrenteria.github.io_Developer-Coding-Quiz_.png"
-              />
-            </a>
-          </div>
-
-          <div class="project" id="code2">
-            <h3 class="text">Work Day Planner<br />HTML/CSS/Javascript/JQuery/API</h3>
-            <a
+                <h4 class="card-title p-1 text-center" style="background-color: #333;border-radius: 5px;border:1px solid white;">Developer Coding Quiz</h4>
+                </a>
+                <p class="card-text">A quiz game developed through dynamically generated HTML and the use of local storage to save a player's highscore after completing the quiz! </p>
+              </div></article>
+            </section>
+    
+            <section class="col-sm-4 my-1">
+              <article class="card bg-dark text-light p-2">
+                <img src="Assets\Files\martinrenteria.github.io_Work-Day-Scheduler_ (1).png" class="card-img-top" style="border:5px solid white;border-radius:5px;" alt="">
+                <div class="card-body">
+                  <a
               href="https://martinrenteria.github.io/Work-Day-Scheduler/"
               target="_blank"
             >
-              <img class="projectPhotos"
-                src="Assets\Files\martinrenteria.github.io_Work-Day-Scheduler_ (1).png"
-              />
-            </a>
-          </div>
+                <h4 class="card-title p-1 text-center" style="background-color: #333;border-radius: 5px;border:1px solid #999;">Day Planner</h4>
+                </a>
+                <p class="card-text">This application required the knowledge of traversing the DOM and incorporating the use of local storage</p>
+              </div></article>
+            </section>
 
-          <div class="project" id="code2">
-            <h3 class="text">Password Generator<br />HTML/CSS/Javascript</h3>
-            <a
-              href="https://martinrenteria.github.io/UWCB-HW03-Password-Generator/"
-              target="_blank"
-            >
-              <img class="projectPhotos"
-                src="Assets\Files\martinrenteria.github.io_UWCB-HW03-Password-Generator_.png"
-              />
-            </a>
-          </div>
-
-          <div class="project" id="code2">
-            <h3 class="text">Refactoring Project<br/>HTML/CSS</h3>
-            <a href="https://martinrenteria.github.io/UWCB-HW01-Code-Refactor-Horiseon-Website/" target="_blank">
-            <img class="projectPhotos"
-              src="Assets\Files\martinrenteria.github.io_UWCB-HW01-Code-Refactor-Horiseon-Website_.png"
-            />
-            </a>
-          </div>
+          <section class="col-sm-4 my-1">
+            <article class="card bg-dark text-light p-2">
+              <img src="Assets\Files\martinrenteria.github.io_UWCB-HW03-Password-Generator_.png" class="card-img-top" style="border:5px solid white;border-radius:5px;" alt="">
+              <div class="card-body">
+                <a
+            href="https://martinrenteria.github.io/UWCB-HW03-Password-Generator/"
+            target="_blank"
+          >
+              <h4 class="card-title p-1 text-center" style="background-color: #333;border-radius: 5px;border:1px solid #999;">Password Generator</h4>
+              </a>
+              <p class="card-text">This application required the knowledge of javascript and performing a set of functions to randomize 4 sets of characters for a high security password with the addition of asking for a user's input </p>
+            </div></article>
+          </section>
+          <div id="buttonContainer" class="col-sm my-5 text-light justify-content-center d-flex">
+              <a class="col-sm-3 btn btn-light m-1 row" style="border: 2px solid white" href="https://github.com/MartinRenteria">
+                <i class="fa fa-github"><br></i> Follow me on Github!
+              </a>
+              </div>
         </div>
-      </section>
 
       <section id="contact-me" class="container-fluid">
 
         <div class="card m-5">
 
-            <div class="card-header">
-               <h2>My Contact Information</h2>
+            <div class="card-header bg-dark p-3">
+               <h2 class="text-light">My Contact Information</h2>
             </div>
 
-            <div class="container-fluid" id="Contact" class="ContactInfo">
-                <div class="container row justify-content-center pt-5 pb-5">
+            <div id="Contact" class="ContactInfo">
+                <div class="d-flex p-2 bd-highlight justify-content-center pt-5 pb-5 bg-dark">
                     <div class="col-lg-3">
                         <a href="mailto:renteriamp96@gmail.com" class="fa fa-google"></a>
                     </div>
