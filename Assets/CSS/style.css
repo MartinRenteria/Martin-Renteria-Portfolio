@@ -12,18 +12,6 @@ body {
 
 }
 
-.nav {
-    background-color: grey;
-
-}
-
-
-.Martin {
-
-    position: relative;
-    display: flex;
-    border-radius: 50%;
-}
 
 #section-aboutme {
     background-color: grey;
@@ -106,7 +94,7 @@ p {
     font-size: 45px;
     font-family: 'Times New Roman', Times, serif;
     border-right: #191a1b 5px solid;
-    color: #445877;
+    color: #040505;
     font-weight: 800;
 }
 
