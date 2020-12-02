@@ -113,11 +113,21 @@ p {
     margin: 6px;
 }
 
+.projectPhoto {
+    display: flex;
+    width: 70em;
+    height: 35em;
+}
+
+.projectPhotos {
+    display: flex;
+    max-width: 600px;
+    height: 350px;
+}
+
 #code {
-    background-size: cover;
-    background-position: center;
-    width: 1000px;
-    height: 300px;
+    width: auto;
+    height: auto;
     overflow: hidden;
 }
 
@@ -130,10 +140,8 @@ p {
 }
 
 #code2 {
-    background-size: cover;
-    background-position: center;
-    width: 500px;
-    height: 300px;
+    width: auto;
+    height: auto;
     overflow: hidden;
 }
 
