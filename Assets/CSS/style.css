@@ -5,80 +5,29 @@
 }
 
 body {
-    background-color: #eeeef7;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #313430;
-}
-
-header h1 {
-    width: auto;
-    background-color: #92ccce;
-    padding-left: 100px;
-    font-size: 3em;
-    color: #313430;
-
-}
-
-ul.links {
-    padding-right: 5em;
-}
-
-.links {
-    display: inline-block;
-    list-style: none;
-}
-
-.links a {
-    flex-wrap: wrap;
-    font-size: 25px;
-    color: #92ccce;
-    border-bottom: 2px solid #92ccce;
-    padding: 6px;
-    text-decoration: none;
-}
-
-.links a:hover {
-    color: white;
-    font-weight: bold; 
-}
-
-.water {
-    display: flex;
-    position: relative;
-    background: url(https://images.pexels.com/photos/311039/pexels-photo-311039.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
-    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 300px;
-    padding: 15px;
+    background-size: cover;
+
 }
 
+.nav {
+    background-color: grey;
+
+}
+
+
 .Martin {
+
+    position: relative;
     display: flex;
-    float: left;
     border-radius: 50%;
 }
 
-header.water {
-
-    margin-bottom: 20px;
-}
-
-.water h2 {
-    position: absolute;
-    bottom: 0px;
-    right: 70px;
-    font-size: 50px;
-    color: #445877;
-    background-color: #92ccce;
-    padding: 0;
-    margin-bottom: 0;
+#section-aboutme {
+    background-color: grey;
+    border: 5px solid black;
 }
 
 .About {
@@ -93,6 +42,11 @@ p {
 .Paragraph {
     width: 70%;
     margin-left: 15px;
+}
+
+#section-work {
+    background-color: grey;
+    border: 5px solid black;
 }
 
 .Work {
@@ -115,8 +69,8 @@ p {
 
 .projectPhoto {
     display: flex;
-    width: 70em;
-    height: 35em;
+    width: 50em;
+    height: 25em;
 }
 
 .projectPhotos {
@@ -147,18 +101,25 @@ p {
 
 .side-headings {
     display: flex;
-    justify-content: flex-end;
     padding: 40px;
     width: 20%;
     font-size: 45px;
     font-family: 'Times New Roman', Times, serif;
-    border-right: #445877 5px solid;
+    border-right: #191a1b 5px solid;
     color: #445877;
     font-weight: 800;
-    margin: 0%;
 }
 
 footer {
+    display: flex;
+}
+
+#section-contactme {
+    flex: 1;
+    background-color: grey;
+}
+
+.icons {
     display: flex;
 }
 
@@ -167,16 +128,11 @@ footer {
 }
 
 .contactMe li {
+    flex: 2;
     display: inline-block;
     padding: 50px 90px;
 }
 
-.contactMe li a {
-    color: #445877;
-    border-bottom: 3px solid  #445877;
-    text-decoration: none;
-
-}
 
 /* Google */
 
