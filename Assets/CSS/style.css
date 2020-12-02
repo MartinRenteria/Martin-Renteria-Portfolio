@@ -110,29 +110,13 @@ p {
     font-weight: 800;
 }
 
-footer {
-    display: flex;
+#Contact {
+    align-items: center;
 }
 
-#section-contactme {
-    flex: 1;
+.ContactInfo {
     background-color: grey;
 }
-
-.icons {
-    display: flex;
-}
-
-.contactMe {
-    list-style-type: none;
-}
-
-.contactMe li {
-    flex: 2;
-    display: inline-block;
-    padding: 50px 90px;
-}
-
 
 /* Google */
 
