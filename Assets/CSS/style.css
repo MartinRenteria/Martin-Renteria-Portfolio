@@ -173,16 +173,6 @@ p {
 
 @media only screen and (max-width: 1210px) {
     
-    header {
-        flex-direction: column;
-        height: auto;
-        width: auto;
-        align-items: center;
-    }
-    
-    header h1 {
-        padding: 0;
-    }
 
     .side-headings {
         margin-bottom: 1em;
@@ -220,6 +210,11 @@ p {
         flex-direction: column;
         width: 100%;
         height: auto;
+        align-items: center;
+    }
+
+    div.col-lg-3 {
+        flex-direction: column;
         align-items: center;
     }
 }
