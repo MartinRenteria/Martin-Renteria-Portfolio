@@ -1,221 +1,82 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-image: url("https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-
-#section-aboutme {
-    background-color: grey;
-    border: 5px solid black;
-}
-
-.About {
-    display: flex;
-    margin-bottom: 10px;
-}
-
-p {
-    display: flex;
-}
-
-.Paragraph {
-    width: 70%;
-    margin-left: 15px;
-}
-
-#section-work {
-    background-color: grey;
-    border: 5px solid black;
-}
-
-.Work {
-    display: flex;
-    margin-bottom: 10px;
-}
-
-#projects {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 20px;
-}
-
-.project {
-    display: flex;
-    border: 8px solid #92ccce;
-    position: relative;
-    margin: 6px;
-}
-
-.projectPhoto {
-    display: flex;
-    width: 50em;
-    height: 25em;
-}
-
-.projectPhotos {
-    display: flex;
-    max-width: 600px;
-    height: 350px;
-}
-
-#code {
-    width: auto;
-    height: auto;
-    overflow: hidden;
-}
-
-.text {
-    background-color: #92ccce;
-    height: 80px;
-    width: auto;
-    position: absolute;
-    top: 140px;
-}
-
-#code2 {
-    width: auto;
-    height: auto;
-    overflow: hidden;
-}
-
-.side-headings {
-    display: flex;
-    padding: 40px;
-    width: 20%;
-    font-size: 45px;
-    font-family: 'Times New Roman', Times, serif;
-    border-right: #191a1b 5px solid;
-    color: #040505;
-    font-weight: 800;
-}
-
-#Contact {
-    align-items: center;
-}
-
-.ContactInfo {
-    background-color: grey;
+  background-image: url("https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
 }
 
 /* Google */
 
 .fa {
-    padding: 40px;
-    text-decoration: none;
-    border-radius: 50%;
-  }
+  padding: 40px;
+  text-decoration: none;
+  border-radius: 50%;
+}
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-google {
-    background: #b80808;
-  }
+  background: #b80808;
+}
 
-  .fa-google:before {
-      color: white;
-      font-size: 40px;
-  }
+.fa-google:before {
+  color: white;
+  font-size: 40px;
+}
 
 /* Github */
 
 .fa {
-    padding: 40px;
-    text-decoration: none;
-    border-radius: 50%;
-  }
+  padding: 40px;
+  text-decoration: none;
+  border-radius: 50%;
+}
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-github {
-    background: #080808;
-  }
+  background: #080808;
+}
 
-  .fa-github:before {
-      color: white;
-      font-size: 40px;
-  }
+.fa-github:before {
+  color: white;
+  font-size: 40px;
+}
 
 /* Linkedin */
 
 .fa {
-    padding: 40px;
-    text-decoration: none;
-    border-radius: 50%;
-  }
+  padding: 40px;
+  text-decoration: none;
+  border-radius: 50%;
+}
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-linkedin {
-    background: #007bb5;
-  }
-
-  .fa-linkedin:before {
-      color: white;
-      font-size: 40px;
-  }
-
-  
-
-@media only screen and (max-width: 550px) {
-    
-
-    .side-headings {
-        margin-bottom: 1em;
-        margin-right: 0;
-        padding-bottom: 5px;
-        padding-bottom: 5px;
-        text-align: center;
-        width: 32%;
-        padding:5px;
-    }
-
-    #section-contactme {
-        width: auto;
-        text-align: center;
-
-    }
-
-    ul.links {
-        margin: 0;
-        padding: 15px;
-        width: auto;
-        text-align: center;
-    }
-
-    div #code.project {
-        width: auto;
-        align-items: center;
-    }
-
-    div#code2.project {
-        align-items: center;
-    }
-
-    img.projectPhotos {
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-        align-items: center;
-    }
-
-    div.d-flex.p-2.bd-highlight.justify-content-center.pt-5.pb-5.bg-dark {
-        flex-direction: column;
-    }
+  background: #007bb5;
 }
 
+.fa-linkedin:before {
+  color: white;
+  font-size: 40px;
+}
 
+@media only screen and (max-width: 550px) {
+  div.d-flex.p-2.bd-highlight.justify-content-center.pt-5.pb-5.bg-dark {
+    flex-direction: column;
+  }
+}
