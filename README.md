@@ -1,6 +1,6 @@
-# Martin-Renteria-Portfolio
+# Portfolio
 
-# UWCB-HW01-Code-Refactor-Horiseon-Website
+
 
 <strong>Homework assignment #2: Portfolio</strong>
 
