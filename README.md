@@ -1,7 +1,5 @@
 # Portfolio
 
-
-
 <strong>Homework assignment #2: Portfolio</strong>
 
 <strong>Task:</strong>
