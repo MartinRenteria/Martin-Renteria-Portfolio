@@ -35,3 +35,17 @@
 .contact {
   font-size: 7pt;
 }
+
+.header-image {
+  float: left;
+  width: auto;
+  height: 30em;
+  object-fit: cover;
+}
+
+.project-images {
+  float: left;
+  width:  20em;
+  height: 12em;
+  object-fit: cover;
+}
