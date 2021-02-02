@@ -1,51 +1,79 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-  body {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    line-height: 1.5;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12pt;
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
+body {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
 }
 
 .card-text {
-  margin: auto;
+	margin: auto;
 }
 
 .work-card {
-  background-color: #515960;
+	background-color: #515960;
 }
 
 .card-text {
-  padding-left: 10px;
-  padding-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .contact {
-  font-size: 7pt;
+	font-size: 7pt;
 }
 
 .header-image {
-  float: left;
-  width: auto;
-  height: 30em;
-  object-fit: cover;
+	float: left;
+	width: auto;
+	height: 30em;
+	object-fit: cover;
 }
 
 .project-images {
-  float: left;
-  width:  20em;
-  height: 12em;
-  object-fit: cover;
+	float: left;
+	width: 20em;
+	height: 12em;
+	object-fit: cover;
+}
+
+#contactMe {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+#contact-title {
+  color: white;
+  font-size: 2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 25px 0 10px 0;
+}
+
+#email {
+  font-size: 1.2em;
+  color: white;
+  margin: 0px 30px 25px;
+}
+
+.icon-item {
+  text-decoration: none;
+  font-size: 2em;
+  width: 2em;
 }
