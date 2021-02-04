@@ -67,9 +67,9 @@ img {
 #welcome-text {
 	color: white;
 	font-weight: bolder;
-	font-size: 1.7em;
+	font-size: 1.5em;
 	position: absolute;
-	width: 75%;
+	width: 50%;
 	top: 70%;
 	left: 50%;
 	transform: translate(-50%, -50%);
