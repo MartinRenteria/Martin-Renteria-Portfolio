@@ -19,8 +19,9 @@ body {
 	max-width: 100%;
 }
 
-.card-text {
-	margin: auto;
+img {
+	display: block;
+	max-width: 100%;
 }
 
 .work-card {
@@ -28,6 +29,7 @@ body {
 }
 
 .card-text {
+	margin: auto;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -43,11 +45,17 @@ body {
 	object-fit: cover;
 }
 
+article {
+	display: block;
+	align-items: center;
+}
+
 .project-images {
 	float: left;
 	width: 20em;
 	height: 12em;
 	object-fit: cover;
+	
 }
 
 #contactMe {
@@ -76,4 +84,28 @@ body {
   text-decoration: none;
   font-size: 2em;
   width: 2em;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+	.project-images {
+		display: flex;
+		flex-direction: row;
+		width: 15em;
+		height: 10em;
+		float: left;
+		object-fit: cover;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.project-images {
+		display: flex;
+		flex-direction: row;
+		width: 10em;
+		height: 8em;
+		float: left;
+		object-fit: cover;
+	}
 }
