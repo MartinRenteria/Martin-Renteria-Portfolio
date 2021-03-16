@@ -4,12 +4,12 @@
 
 <strong>Task:</strong>
 
-Building an intial portfolio page from scartch to showcase my skills and talents to employers looking to fill a part-time or full-time position using advanced CSS. 
+My portfolio with links to all my live projects and github repositories! All my projects showcase my skills in various technologies and my love of coding. Please come take a look! 
 
 <strong>Link:</strong>
 
-Here is the link to both websites:  
+Here is the link to both to my live site and GIthub repository:  
 
-Deployed Website: https://martinrenteria.github.io/Martin-Renteria-Portfolio/
+Live site: https://martinrenteria.github.io/Martin-Renteria-Portfolio/
 
-github repository: https://github.com/MartinRenteria/Martin-Renteria-Portfolio.git
+Github repository: https://github.com/MartinRenteria/Martin-Renteria-Portfolio.git
