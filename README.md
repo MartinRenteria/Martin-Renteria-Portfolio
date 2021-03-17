@@ -1,6 +1,6 @@
 # Portfolio
 
-<strong>Homework assignment #2: Portfolio</strong>
+<strong>Martin Renteria's Portfolio</strong>
 
 <strong>Task:</strong>
 
